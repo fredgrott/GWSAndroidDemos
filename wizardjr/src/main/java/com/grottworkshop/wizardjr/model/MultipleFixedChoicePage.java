@@ -24,6 +24,7 @@ import com.grottworkshop.wizardjr.ui.MultipleChoiceFragment;
 import java.util.ArrayList;
 
 /**
+ * A page offering the user a number of non-mutually exclusive choices.
  * Created by fgrott on 6/14/2015.
  */
 public class MultipleFixedChoicePage extends SingleFixedChoicePage {

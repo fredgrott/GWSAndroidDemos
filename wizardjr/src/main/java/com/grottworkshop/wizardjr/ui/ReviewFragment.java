@@ -41,6 +41,7 @@ import java.util.List;
 
 
 /**
+ * ReviewFragment
  * Created by fgrott on 6/14/2015.
  */
 public class ReviewFragment extends ListFragment implements IModelCallbacks {
@@ -104,7 +105,7 @@ public class ReviewFragment extends ListFragment implements IModelCallbacks {
 
     @Override
     public void onPageDataChanged(Page changedPage) {
-        ArrayList<ReviewItem> reviewItems = new ArrayList<ReviewItem>();
+        ArrayList<ReviewItem> reviewItems = new ArrayList<>();
         for (Page page : mWizardModel.getCurrentPageSequence()) {
             page.getReviewItems(reviewItems);
         }
@@ -165,6 +166,7 @@ public class ReviewFragment extends ListFragment implements IModelCallbacks {
         @Override
         public View getView(int position, View view, ViewGroup container) {
             LayoutInflater inflater = LayoutInflater.from(getActivity());
+            //TODO: unconditional layout inflation use recyclerview as the second parameter for smoother scrolling
             View rootView = inflater.inflate(R.layout.list_item_review, container, false);
 
             ReviewItem reviewItem = mCurrentReviewItems.get(position);

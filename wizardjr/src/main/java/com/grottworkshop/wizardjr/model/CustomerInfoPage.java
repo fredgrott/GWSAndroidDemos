@@ -26,6 +26,7 @@ import java.util.ArrayList;
 
 
 /**
+ * A page asking for a name and an email.
  * Created by fgrott on 6/14/2015.
  */
 public class CustomerInfoPage extends Page {

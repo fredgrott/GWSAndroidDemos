@@ -26,12 +26,16 @@ import java.util.List;
 
 
 /**
+ * * Represents a wizard model, including the pages/steps in the wizard, their dependencies, and their
+ * currently populated choices/values/selections.
+ *
+ * To create an actual wizard model, extend this class and implement {@link #onNewRootPageList()}.
  * Created by fgrott on 6/14/2015.
  */
 public abstract class AbstractWizardModel implements IModelCallbacks {
     protected Context mContext;
 
-    private List<IModelCallbacks> mListeners = new ArrayList<IModelCallbacks>();
+    private List<IModelCallbacks> mListeners = new ArrayList<>();
     private PageList mRootPageList;
 
     public AbstractWizardModel(Context context) {
@@ -89,7 +93,7 @@ public abstract class AbstractWizardModel implements IModelCallbacks {
      * user's choices.
      */
     public List<Page> getCurrentPageSequence() {
-        ArrayList<Page> flattened = new ArrayList<Page>();
+        ArrayList<Page> flattened = new ArrayList<>();
         mRootPageList.flattenCurrentPageSequence(flattened);
         return flattened;
     }

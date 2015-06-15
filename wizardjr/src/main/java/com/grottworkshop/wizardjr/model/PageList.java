@@ -20,6 +20,7 @@ package com.grottworkshop.wizardjr.model;
 import java.util.ArrayList;
 
 /**
+ * Represents a list of wizard pages.
  * Created by fgrott on 6/14/2015.
  */
 public class PageList extends ArrayList<Page> implements IPageTreeNode {

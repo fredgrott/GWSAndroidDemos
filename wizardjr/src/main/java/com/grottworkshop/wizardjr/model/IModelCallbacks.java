@@ -19,6 +19,9 @@
 package com.grottworkshop.wizardjr.model;
 
 /**
+ * Callback interface connecting {@link Page}, {@link AbstractWizardModel}, and model container
+ * objects (e.g. {@link com.grottworkshop.wizardjr.MainActivity}.
+
  * Created by fgrott on 6/14/2015.
  */
 public interface IModelCallbacks {

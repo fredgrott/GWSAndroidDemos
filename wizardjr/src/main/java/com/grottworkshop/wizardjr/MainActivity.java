@@ -43,6 +43,7 @@ import java.util.List;
 
 
 /**
+ * MainActivity
  * Created by fgrott on 6/14/2015.
  */
 public class MainActivity extends FragmentActivity implements
@@ -91,7 +92,8 @@ public class MainActivity extends FragmentActivity implements
         mNextButton = (Button) findViewById(R.id.next_button);
         mPrevButton = (Button) findViewById(R.id.prev_button);
 
-        mPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
+        //ViewPager.setOnPageChangeListner is depreciated
+        mPager.addOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
             @Override
             public void onPageSelected(int position) {
                 mStepPagerStrip.setCurrentPage(position);

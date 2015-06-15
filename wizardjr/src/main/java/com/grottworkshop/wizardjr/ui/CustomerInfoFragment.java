@@ -33,6 +33,7 @@ import com.grottworkshop.wizardjr.R;
 import com.grottworkshop.wizardjr.model.CustomerInfoPage;
 
 /**
+ * CustomerInfoFragment
  * Created by fgrott on 6/14/2015.
  */
 public class CustomerInfoFragment extends Fragment {

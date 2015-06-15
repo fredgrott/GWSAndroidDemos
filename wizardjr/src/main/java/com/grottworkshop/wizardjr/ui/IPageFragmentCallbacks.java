@@ -20,6 +20,7 @@ package com.grottworkshop.wizardjr.ui;
 import com.grottworkshop.wizardjr.model.Page;
 
 /**
+ * IPageFragmentCallbacks
  * Created by fgrott on 6/14/2015.
  */
 public interface IPageFragmentCallbacks {

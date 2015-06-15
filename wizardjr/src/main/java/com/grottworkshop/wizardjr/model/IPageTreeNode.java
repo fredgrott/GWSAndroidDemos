@@ -22,11 +22,12 @@ package com.grottworkshop.wizardjr.model;
 import java.util.ArrayList;
 
 /**
+ * Represents a node in the page tree. Can either be a single page, or a page container.
  * Created by fgrott on 6/14/2015.
  */
 public interface IPageTreeNode {
 
-    public Page findByKey(String key);
-    public void flattenCurrentPageSequence(ArrayList<Page> dest);
+    Page findByKey(String key);
+    void flattenCurrentPageSequence(ArrayList<Page> dest);
 
 }

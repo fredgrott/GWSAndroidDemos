@@ -18,6 +18,9 @@
 package com.grottworkshop.wizardjr.model;
 
 /**
+ * Represents a single line item on the final review page.
+ *
+ * @see com.grottworkshop.wizardjr.ui.ReviewFragment
  * Created by fgrott on 6/14/2015.
  */
 public class ReviewItem {

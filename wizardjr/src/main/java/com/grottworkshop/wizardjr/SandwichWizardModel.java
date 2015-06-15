@@ -27,6 +27,7 @@ import com.grottworkshop.wizardjr.model.PageList;
 import com.grottworkshop.wizardjr.model.SingleFixedChoicePage;
 
 /**
+ * SandwichWizardModel
  * Created by fgrott on 6/14/2015.
  */
 public class SandwichWizardModel extends AbstractWizardModel {

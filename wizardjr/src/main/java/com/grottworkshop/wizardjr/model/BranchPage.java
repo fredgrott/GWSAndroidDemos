@@ -27,10 +27,12 @@ import java.util.List;
 
 
 /**
+ * A page representing a branching point in the wizard. Depending on which choice is selected, the
+ * next set of steps in the wizard may change.
  * Created by fgrott on 6/14/2015.
  */
 public class BranchPage extends SingleFixedChoicePage {
-    private List<Branch> mBranches = new ArrayList<Branch>();
+    private List<Branch> mBranches = new ArrayList<>();
 
     public BranchPage(IModelCallbacks callbacks, String title) {
         super(callbacks, title);

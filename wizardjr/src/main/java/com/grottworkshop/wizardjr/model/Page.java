@@ -24,6 +24,7 @@ import java.util.ArrayList;
 
 
 /**
+ * Represents a single page in the wizard.
  * Created by fgrott on 6/14/2015.
  */
 public abstract class Page implements IPageTreeNode {

@@ -37,6 +37,7 @@ import java.util.List;
 
 
 /**
+ * SingleChoiceFragment
  * Created by fgrott on 6/14/2015.
  */
 public class SingleChoiceFragment extends ListFragment {
@@ -68,7 +69,7 @@ public class SingleChoiceFragment extends ListFragment {
         mPage = mCallbacks.onGetPage(mKey);
 
         SingleFixedChoicePage fixedChoicePage = (SingleFixedChoicePage) mPage;
-        mChoices = new ArrayList<String>();
+        mChoices = new ArrayList<>();
         for (int i = 0; i < fixedChoicePage.getOptionCount(); i++) {
             mChoices.add(fixedChoicePage.getOptionAt(i));
         }
@@ -81,7 +82,7 @@ public class SingleChoiceFragment extends ListFragment {
         ((TextView) rootView.findViewById(android.R.id.title)).setText(mPage.getTitle());
 
         final ListView listView = (ListView) rootView.findViewById(android.R.id.list);
-        setListAdapter(new ArrayAdapter<String>(getActivity(),
+        setListAdapter(new ArrayAdapter<>(getActivity(),
                 android.R.layout.simple_list_item_single_choice,
                 android.R.id.text1,
                 mChoices));

@@ -27,10 +27,11 @@ import java.util.Arrays;
 
 
 /**
+ * A page offering the user a number of mutually exclusive choices.
  * Created by fgrott on 6/14/2015.
  */
 public class SingleFixedChoicePage extends Page {
-    protected ArrayList<String> mChoices = new ArrayList<String>();
+    protected ArrayList<String> mChoices = new ArrayList<>();
 
     public SingleFixedChoicePage(IModelCallbacks callbacks, String title) {
         super(callbacks, title);

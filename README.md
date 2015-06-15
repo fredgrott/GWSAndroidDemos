@@ -1,53 +1,52 @@
 # GWSAndroidDemos
+![watch image](/art/rreadmeandroiddemos.png)
 
+You as a firm manager or start-up co-founder have huge amount of problems to solve on your plate. Let the expert android application engineer and designer take some of those worries off of your plate.
 
-**image here, project logo screen shot or gif**
+You will find detailed here sample android application demos and UI custom controls to give you an idea of the things that can be accomplished with a well polished android
+java application. Click on the module links below and you wil be presented with a demo page for that android application or UI controls that has videos, screenshots, etc.
 
-
-**talk in sound bites to both tech and non-tech audiences, STORY FIRST than allegories, sentence fragments preferred sentences only 12 words long**
-
-**description and purpose of project here**
-
-I was reading someone dissect ad-copy of the Apple iPhone...
-
-And it occurred to me that to reach the non-tech audiences I have to Converse Different..
-
-Want the power that comes with more people reading your readme?
-
-Fork, this repo and re-use my template..
-
-## Aims
-
-## Benefits
 
 
 
 [GWSAndroidDemos Repo](https://github.com/shareme/GWSAndroidDemos)
 
-# Implementation
+# How Fred Grott and GWS Work
 
-**Sound bite to two audiences tech and non-tech about the implementation**
+I strongly believe in a well planned and executed project that results in a working
+android java application that the end user falls-in-love with. It starts with me completing a project
+interview with you to make sure that you are aware of the budget ranges for a highly interactive android
+java application, usually between $60, 000 and $96,000. Once I confirm the budget range than its a project
+set of spec interviews to verify that what you want in form of the android java application will help
+your firm reach both your short-term and long-term goals:
 
-In our information age, people scan...
+return-on-investment, will your firm receive the benefits that out-weigh the investment costs
 
+project scope matches project budget
 
+time to develop the application matches project scope and budget
 
-# API Target Levels
+than it is matter of writing up a contract that has weekly milestones with payment being made after the milestone has been reached and only a week advance.
 
-**describe the api levels lib or app demo targets**
-
-# Dependencies
-
-**describe the dependencies used**
-
-# Usage
-
-**usage directions go here, for example how to use library or how to run the demo
-application**
+The way I handle late payments is that project work stops and project work does not
+being again until my project queue has an opening. This way you do not get punished by a late interest
+fee but instead your behavior gets enhanced to align with both our goals.
 
 # Demos
 
-**demos urls and videos go here**
+## Applications
+
+I am referring to highly-interactive android java applications. Some of these demos show work-flow attributes
+as most enterprise android java applications have some complex workflow components.
+
+
+## UI Controls
+
+Part of the branding part of the UI is to create a sticky activity that integrates with a mobile activity
+and at the same time visually reminds the android device user that it is your company that provided the
+android application. I accomplish that through customizing UI controls, for example these controls:
+
+
 
 
 # ChangeLog
@@ -59,13 +58,8 @@ application**
 
 # Credits
 
-**code used from other projects gets credited here listing code author and repo url**
 
-# Contributing and Contributors
 
-You can contribute by forking the repo and committing a change to the fork and than making a pull request. [Making A Pull Request-GitHub Help]()
-
-**Contributors List goes here**
 
 
 # Trademarks
@@ -96,7 +90,6 @@ Helpful resources for both the beginner and intermediate android developer.
 
 ![GWS Logo](/art/gws_logo_longform_final.png)
 
-**describe Fred Grott dev/design processes and GWS**
 
 I call it GrottWorkShop because it takes value and art to create heroes in both
 Start-Ups and Mobile Application end Users. It is a craft act in that each mobile
